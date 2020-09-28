@@ -1,0 +1,80 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+  
+  .main{
+      margin:10px 80px 10px 80px;
+
+  }
+  .main img{
+      padding-right: 40px;
+  }
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 0;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: black;
+  }
+  
+  @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+      padding-top: 5;
+      height: inherit;
+    }
+  }
+  .navbar {
+    min-height: 80px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+  
+  .dropdown-menu{
+      text-align: center;
+  }
+  .dropdown-menu a{
+      color: black;
+  }
+  .dropdown-menu a:hover{
+    text-decoration: none;
+    color:#838383 ;
+}
